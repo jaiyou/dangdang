@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 640px;
+  background-color: #011957;
+}
+.box ul li {
+  list-style: none;
+}
+.box a {
+  text-decoration: none;
+}
+.box .banner_img {
+  width: 640px;
+}
+.box .list {
+  overflow: hidden;
+  padding-left: 10px;
+}
+.box .list li {
+  float: left;
+  width: 132px;
+  margin-bottom: 20px;
+}
+.box .list li a {
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  margin-right: 10px;
+  background-color: #6745b5;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 5px 0px #3e13a0;
+}
+.box .list li a span:nth-child(1) {
+  float: left;
+}
+.box .list li a span:nth-child(2) {
+  float: right;
+}
+.book_list {
+  overflow: hidden;
+  padding-right: 10px;
+}
+.book_list > li {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.book_list > li > div {
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+}
+.imgs {
+  width: 100%;
+}
+.info {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buy {
+  overflow: hidden;
+}
+.price {
+  float: left;
+}
+.new_p {
+  color: #fd384c;
+  font-weight: bolder;
+}
+.old_p {
+  text-decoration: line-through;
+  color: gray;
+}
+.buy > button {
+  float: right;
+  width: 44px;
+  background-color: #fd384c;
+  padding: 5px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
